@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Star_K.DBApi.Web.Models.VistsViewModel>
+
+@{
+    ViewBag.Title = "VistsIndex";
+}
+
+@foreach (var item in Model)
+{
+    <div>
+        <h4>@item.Visitid</h4>
+        <h4>@item.PlantId</h4>
+        <h4>@item.PersonId</h4>
+        <h4>@item.VisitType</h4>
+        <h4>@item.ApproximateDate</h4>
+        <h4>@item.VisitComment</h4>
+        <h4>@item.EntryDate</h4>
+        <h4>@item.UserID</h4>
+        <h4>@item.WorkflowId</h4>
+    </div>
+}
+
+    
+
+

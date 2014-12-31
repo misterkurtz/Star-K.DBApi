@@ -1,0 +1,15 @@
+C:\Users\Kevin\Source\Workspaces\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\obj\Debug\Star-K.DBApi.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\bin\Debug\Star-K.DBApi.DataAccess.dll.config
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\bin\Debug\Star-K.DBApi.DataAccess.dll
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\bin\Debug\Star-K.DBApi.DataAccess.pdb
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\bin\Debug\Ninject.dll
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\bin\Debug\Star-K.DBApi.Model.dll
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\bin\Debug\Star-K.DBApi.Model.pdb
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\bin\Debug\Ninject.xml
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\obj\Debug\Star-K.DBApi.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\obj\Debug\Star-K.DBApi.DataAccess.dll
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.DataAccess\obj\Debug\Star-K.DBApi.DataAccess.pdb

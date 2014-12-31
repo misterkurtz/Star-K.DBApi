@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Star_K.DBApi.Web.Models.UkdViewModel>
+
+@{
+    ViewBag.Title = "UkdIndex";
+}
+
+@foreach (var item in Model)
+{
+    <div>
+        <h4>@item.UkdFileID</h4>
+        <h4>@item.AgencyID</h4>
+        <h4>@item.FileDay</h4>
+        <h4>@item.FileMonth</h4>
+        <h4>@item.FileYear</h4>
+        <h4>@item.DateUpdated</h4>
+        <h4>@item.Bytes</h4>
+    </div>
+}

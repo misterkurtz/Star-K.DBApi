@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Star_K.DBApi.Web.Models.LoggingViewModel>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@foreach (var item in Model)
+{
+    <div>
+        <h4>@item.idLog</h4>
+        <h4>@item.Date</h4>
+        <h4>@item.transaction</h4>
+        <h4>@item.idUser</h4>
+        <h4>@item.note</h4>
+
+
+    </div>
+    
+    
+}

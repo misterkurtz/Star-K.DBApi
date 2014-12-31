@@ -1,0 +1,12 @@
+C:\Users\Kevin\Source\Workspaces\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.Model\bin\Debug\Star-K.DBApi.Model.dll
+C:\Users\Kevin\Source\Workspaces\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.Model\bin\Debug\Star-K.DBApi.Model.pdb
+C:\Users\Kevin\Source\Workspaces\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.Model\obj\Debug\Star-K.DBApi.Model.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Source\Workspaces\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.Model\obj\Debug\Star-K.DBApi.Model.dll
+C:\Users\Kevin\Source\Workspaces\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.Model\obj\Debug\Star-K.DBApi.Model.pdb
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.Model\bin\Debug\Star-K.DBApi.Model.dll
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.Model\bin\Debug\Star-K.DBApi.Model.pdb
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.Model\bin\Debug\Ninject.dll
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.Model\bin\Debug\Ninject.xml
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.Model\obj\Debug\Star-K.DBApi.Model.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.Model\obj\Debug\Star-K.DBApi.Model.dll
+C:\Users\Kevin\Desktop\Star-K.DBApi\Star-K.DBApi.Web\Star-K.DBApi.Model\obj\Debug\Star-K.DBApi.Model.pdb
