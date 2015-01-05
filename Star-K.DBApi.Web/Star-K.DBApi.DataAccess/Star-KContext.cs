@@ -5,6 +5,8 @@ namespace Star_K.DBApi.DataAccess
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
     using DBApi.Model;
+    using Star_K.DBApi.Model;
+
 
 
     public partial class Star_KContext : DbContext
@@ -17,6 +19,7 @@ namespace Star_K.DBApi.DataAccess
         public virtual DbSet<Logging> Loggings { get; set; }
         public virtual DbSet<UkdFile> UkdFiles { get; set; }
         public virtual DbSet<Visit> Visits { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -31,6 +34,10 @@ namespace Star_K.DBApi.DataAccess
             modelBuilder.Entity<Visit>()
                 .Property(e => e.VisitComment)
                 .IsUnicode(false);
+
+
         }
+
+        
     }
 }

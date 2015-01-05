@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Star_K.DBApi.Web.Models.UserViewModel>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@foreach (var item in Model)
+{
+    <div>
+        <h4>@item.IdUser</h4>
+        <h4>@item.UserName</h4>
+        <h4>@item.Password</h4>
+        <h4>@item.Email</h4>
+        <h4>@item.CreatedDate</h4>
+        <h4>@item.Logon</h4>
+        <h4>@item.AspxAuth</h4>
+
+
+    </div>
+
+
+}

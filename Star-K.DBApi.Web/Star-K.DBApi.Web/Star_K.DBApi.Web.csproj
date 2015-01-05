@@ -120,12 +120,14 @@
   <ItemGroup>
     <Compile Include="Controllers\LoggingController.cs" />
     <Compile Include="Controllers\UkdController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\VisitsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\LoggingViewModel.cs" />
     <Compile Include="Models\UkdViewModel.cs" />
+    <Compile Include="Models\UserViewModel.cs" />
     <Compile Include="Models\VistsViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -166,10 +168,13 @@
     <Content Include="Views\Logging\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Ukd\UkdIndex.cshtml" />
+    <Content Include="Views\Ukd\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Visits\VistsIndex.cshtml" />
+    <Content Include="Views\Visits\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\User\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

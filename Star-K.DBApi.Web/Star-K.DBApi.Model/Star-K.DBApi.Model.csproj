@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Model\Logging.cs" />
     <Compile Include="Model\UkdFile.cs" />
+    <Compile Include="Model\User.cs" />
     <Compile Include="Model\Visit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
