@@ -5,7 +5,7 @@ namespace Star_K.DBApi.DataAccess
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
     using DBApi.Model;
-    using Star_K.DBApi.Model;
+
 
 
 
@@ -34,6 +34,7 @@ namespace Star_K.DBApi.DataAccess
             modelBuilder.Entity<Visit>()
                 .Property(e => e.VisitComment)
                 .IsUnicode(false);
+
 
 
         }

@@ -12,7 +12,7 @@ using System.Data.Entity;
     [Table("UserProfiles")]
     public partial class User
     {
-        
+        [Key]
         public int Id { get; set; }
 
         public string UserName { get; set; }
@@ -27,4 +27,5 @@ using System.Data.Entity;
 
         public string AspxAuth { get; set; }
     }
+
 }

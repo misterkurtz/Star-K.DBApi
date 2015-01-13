@@ -6,11 +6,15 @@ using System.Web.Mvc;
 using Star_K.DBApi.DataAccess;
 using Star_K.DBApi.Model;
 using Star_K.DBApi.Web.Models;
+using System.Web.Http;
+
+
 
 
 
 namespace Star_K.DBApi.Web.Controllers
 {
+
     public class LoggingController : Controller
     {
 
@@ -25,7 +29,7 @@ namespace Star_K.DBApi.Web.Controllers
         //    {
         //    };
 
-        
+
 
         //private readonly StarKRepository _repo;
 
@@ -37,15 +41,15 @@ namespace Star_K.DBApi.Web.Controllers
 
         Star_KContext _context = new Star_KContext();
 
-
-        public ActionResult Index()
+           [System.Web.Mvc.HttpGet] 
+       public ActionResult Index()
         {
             var model =
                 from r in _context.Loggings
                 select new LoggingViewModel
                 {
                     idLog = r.idLogging,
-                    Date = r.DateCreate?? DateTime.Now,
+                    Date = r.DateCreate ?? DateTime.Now,
                     transaction = r.transaction,
                     idUser = r.idUser,
                     note = r.note
@@ -55,13 +59,22 @@ namespace Star_K.DBApi.Web.Controllers
 
 
         }
+
+        //public ActionResult Details(int? id)
         //{
-        //       var model = _repo.GetAllLogs();
-           
-        //       return View(odel);
+        //    if (id == null)
+        //    {
+        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+        //    }
+        //    Logging logging = _context.Loggings.Find(id);
+        //    if (logging == null)
+        //    {
+        //        return HttpNotFound();
+        //    }
+        //    return View(logging);
         //}
-            
-        
+
+
     }
 
 

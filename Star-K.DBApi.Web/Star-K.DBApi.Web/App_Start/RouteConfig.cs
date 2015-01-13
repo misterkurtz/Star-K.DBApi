@@ -19,14 +19,7 @@ namespace Star_K.DBApi.Web
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
 
-            routes.MapRoute("Logging",
-                "logging/{date}",
-                new {controller = "Logging", action= "Index", date =UrlParameter.Optional }
-                
-                
-                
-                
-                );
+           
         }
     }
 }
