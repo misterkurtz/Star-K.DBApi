@@ -11,9 +11,7 @@ namespace Star_K.DBApi.Web.Models
 
         public DateTime Date { get; set; }
 
-        
         public string transaction { get; set; }
-
         
         public string idUser { get; set; }
 

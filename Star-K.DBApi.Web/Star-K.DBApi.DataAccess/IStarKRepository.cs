@@ -10,12 +10,15 @@ namespace Star_K.DBApi.DataAccess
 {
     public interface IStarKRepository
     {
-        //Logging GetLogByDate(DateTime date);
-          IQueryable<Logging> GetAllLogs();
 
-          //IQueryable<UkdFile> GetAllFiles();
+          IQueryable<Logging> GetAllLogs();
+          //Logging GetLog(int id);
+          //Logging GetDate(DateTime date);
+            
+
+          IQueryable<UkdFile> GetAllFiles();
         
-//        IQueryable<Visit> GetAllVists();
+          IQueryable<Visit> GetAllVisits();
 
 
 

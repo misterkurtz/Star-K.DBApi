@@ -9,8 +9,6 @@ namespace Star_K.DBApi.Web
     {
         public static void Register(HttpConfiguration config)
         {
-
-
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
@@ -18,12 +16,10 @@ namespace Star_K.DBApi.Web
             );
 
             config.Routes.MapHttpRoute(
-    name: "LoggingApi",
-    routeTemplate: "logging/{controller}/{id}",
-    defaults: new { id = RouteParameter.Optional }
-    );
-
-
+               name: "Logging",
+               routeTemplate: "api/stark/loggings/{date}",
+               defaults: new {controller ="loggings", date = RouteParameter.Optional }
+           );
 
         }
     }
